@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public SceneController sceneController;
     public float velocity = 1;
     public GameObject player;
     private Rigidbody2D rb;
@@ -25,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        sceneController.gameOver();
         Debug.Log(collision.gameObject.name);
     }
 }

@@ -24,7 +24,7 @@ public class ObstacleGenerator : MonoBehaviour
         if (timeInit> timeMax)
         {
             GameObject obstacleNew = Instantiate(obstacle);
-            obstacleNew.transform.position = obstacleOrigin.transform.position + new Vector3(0, Random.Range(-high, high), 0);
+            obstacleNew.transform.position = obstacleOrigin.transform.position + new Vector3(0, Random.Range(-high, high),0);
             Debug.Log(obstacleNew.transform.position);
             Debug.Log(Random.Range(-high, high));
             Destroy(obstacleNew, 5);
