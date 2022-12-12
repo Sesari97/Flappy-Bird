@@ -386,7 +386,7 @@ TextureImporter:
         serializedVersion: 2
         x: 395
         y: 432
-        width: 49
+        width: 97
         height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -397,27 +397,6 @@ TextureImporter:
       bones: []
       spriteID: 2b7c277cbd73b644ca7739cf8bfb3489
       internalID: -224649531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 59894_13
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 432
-        width: 42
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d5feaafa65136649ad91363a6fb03a3
-      internalID: -20105319
       vertices: []
       indices: 
       edges: []

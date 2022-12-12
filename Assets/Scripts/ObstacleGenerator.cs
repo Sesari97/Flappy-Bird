@@ -25,8 +25,6 @@ public class ObstacleGenerator : MonoBehaviour
         {
             GameObject obstacleNew = Instantiate(obstacle);
             obstacleNew.transform.position = obstacleOrigin.transform.position + new Vector3(0, Random.Range(-high, high),0);
-            Debug.Log(obstacleNew.transform.position);
-            Debug.Log(Random.Range(-high, high));
             Destroy(obstacleNew, 5);
             timeInit = 0;
         }
